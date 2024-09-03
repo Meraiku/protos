@@ -1,4 +1,4 @@
-module github.com/Meraiku/protos
+module github.com/meraiku/protos
 
 go 1.23.0
 
