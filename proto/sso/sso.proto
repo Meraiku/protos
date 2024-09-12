@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "tuzov.sso.v1;ssov1";
+option go_package = "github.com/meraiku/protos";
 
 service Auth {
 
@@ -24,7 +24,7 @@ message RegisterResponse {
 message LoginRequest {
   string email = 1; 
   string password = 2; 
-  int32 app_id = 3; // ID of the app to login to.
+  int32 app_id = 3;
 }
 
 message LoginResponse {
